@@ -2,6 +2,10 @@
 
 Site e-commerce d'APOSA, atelier lorientais d'éditions graphiques premium vendues en précommande.
 
+## Statut
+
+Le projet est en phase de cadrage produit et technique. La stack applicative n'est pas encore arrêtée.
+
 ## Documentation
 
 - [Vision produit](docs/PRODUCT.md)
@@ -11,4 +15,6 @@ Site e-commerce d'APOSA, atelier lorientais d'éditions graphiques premium vendu
 - [Journal des décisions](docs/DECISIONS.md)
 - [Instructions pour les agents](AGENTS.md)
 
-Le choix de la stack technique n'est pas encore arrêté.
+## Contribution
+
+Consulter [CONTRIBUTING.md](CONTRIBUTING.md) avant toute modification. Les agents doivent également suivre [AGENTS.md](AGENTS.md) et le skill projet situé dans `.agents/skills/aposa-project/`.
