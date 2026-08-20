@@ -8,10 +8,18 @@ Le projet est en phase de cadrage produit et technique. La stack applicative n'e
 
 ## Documentation
 
+- [Index de la documentation](docs/README.md)
 - [Vision produit](docs/PRODUCT.md)
 - [Domaine et règles métier](docs/DOMAIN.md)
 - [Architecture fonctionnelle](docs/ARCHITECTURE.md)
 - [Règles d'implémentation](docs/IMPLEMENTATION.md)
+- [Design](docs/DESIGN.md)
+- [Frontend](docs/FRONTEND.md)
+- [Backend et API](docs/BACKEND.md)
+- [QA et tests](docs/QA.md)
+- [Sécurité](docs/SECURITY.md)
+- [Exploitation](docs/OPERATIONS.md)
+- [Roadmap](docs/ROADMAP.md)
 - [Journal des décisions](docs/DECISIONS.md)
 - [Instructions pour les agents](AGENTS.md)
 

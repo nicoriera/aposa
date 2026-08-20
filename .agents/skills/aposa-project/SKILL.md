@@ -1,6 +1,6 @@
 ---
 name: aposa-project
-description: Plan and implement APOSA product, UX, commerce, content, data, and engineering changes while enforcing the project's preorder model, edition lifecycle, ethical-claim boundaries, documentation, and mobile-first quality rules. Use for any task in the APOSA repository that affects product behavior, site structure, checkout, editions, orders, production, fulfilment, customer communication, branding implementation, or architecture decisions.
+description: Plan, implement, test, review, secure, and operate APOSA product, design, frontend, backend, commerce, data, and documentation changes while enforcing the preorder model, edition lifecycle, ethical-claim boundaries, architecture contracts, QA gates, and agent workflow. Use for any APOSA repository task affecting product behavior, UX, APIs, orders, payments, production, fulfilment, customer data, deployment, security, testing, or technical decisions.
 ---
 
 # Aposa Project
@@ -10,12 +10,12 @@ Appliquer le cadre produit APOSA avant de modifier le dépôt. Préserver le mod
 ## Démarrage obligatoire
 
 1. Lire `AGENTS.md` à la racine.
-2. Lire les documents pertinents dans `docs/`.
-3. Identifier les règles métier et états affectés.
-4. Vérifier si une décision structurante manque dans `docs/DECISIONS.md`.
+2. Lire `references/task-routing.md` et les documents qu'il indique.
+3. Identifier les règles, contrats, données et états affectés.
+4. Classer le risque avec `references/review-checklist.md`.
+5. Vérifier si une décision structurante manque dans `docs/DECISIONS.md`.
 
-Pour une tâche produit ou UX, lire `references/product-checklist.md`.
-Pour une tâche d'implémentation, lire `references/engineering-checklist.md`.
+Lire `references/product-checklist.md` pour le produit ou l'UX et `references/engineering-checklist.md` pour l'implémentation.
 
 ## Workflow
 
@@ -46,7 +46,15 @@ Pour une tâche d'implémentation, lire `references/engineering-checklist.md`.
 - Tester le cas nominal et les échecs critiques.
 - Vérifier mobile, accessibilité et performances média.
 - Vérifier l'approvisionnement après paiement, annulation et remboursement.
+- Vérifier sécurité, données et exploitation selon le risque.
 - Mettre à jour les documents affectés dans la même modification.
+
+### Livrer
+
+- Résumer le résultat visible avant les détails techniques.
+- Nommer les tests exécutés et leurs résultats.
+- Signaler les hypothèses, limites et décisions restantes.
+- Vérifier le diff et l'état Git avant toute demande de commit.
 
 ## Contraintes commerciales
 
@@ -62,3 +70,11 @@ Pour une tâche d'implémentation, lire `references/engineering-checklist.md`.
 - Utiliser la direction artistique comme système, pas comme décoration du checkout.
 - Traiter vêtement, tirage, packaging et objet comme une même édition.
 - Attribuer chaque engagement et certification à sa source exacte.
+
+## Garde-fous agents
+
+- Ne pas déléguer la lecture ou l'interprétation de ce skill.
+- Déléguer seulement des sous-tâches bornées sans chevauchement de fichiers.
+- Ne jamais inventer une exigence manquante qui modifierait le produit.
+- Ne pas publier, pousser, fusionner ou déployer sans autorisation explicite.
+- Préserver les modifications existantes qui ne relèvent pas de la tâche.
