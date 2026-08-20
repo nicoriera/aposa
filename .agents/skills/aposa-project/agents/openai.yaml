@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aposa Project"
+  short_description: "Cadre produit et implémentation Aposa"
+  default_prompt: "Use $aposa-project to plan or implement a change that respects the Aposa product, brand, preorder, and engineering rules."

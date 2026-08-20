@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build and framework outputs
+dist/
+build/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+.netlify/
+coverage/
+
+# Logs and caches
+*.log
+.cache/
+.turbo/
+.eslintcache
+
+# Editors
+.idea/
+.vscode/
+*.swp
