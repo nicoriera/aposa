@@ -1,0 +1,57 @@
+name: Bug
+description: Signaler un comportement incorrect ou une régression
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Merci de fournir un cas reproductible et de ne jamais inclure de données personnelles ou de secrets.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problème
+      description: Décrire le comportement observé et son impact.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Indiquer les étapes minimales permettant de reproduire le problème.
+      placeholder: |
+        1. Ouvrir…
+        2. Choisir…
+        3. Observer…
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface concernée
+      options:
+        - Edition actuelle
+        - Produit et tailles
+        - Panier et paiement
+        - Compte et suivi
+        - Back-office
+        - Documentation
+        - Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte utile
+      description: Appareil, navigateur, capture ou message d'erreur expurgé des données sensibles.

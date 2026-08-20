@@ -1,0 +1,42 @@
+name: Evolution
+description: Proposer une évolution produit, UX, contenu ou technique
+title: "change: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème à résoudre
+      description: Expliquer le besoin du client ou de l'atelier avant de proposer une solution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Résultat attendu
+      description: Décrire ce qui devrait devenir possible ou plus simple.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Domaine
+      options:
+        - Produit et précommande
+        - Direction artistique
+        - Parcours d'achat
+        - Production et approvisionnement
+        - Expédition et suivi
+        - Contenu et documentation
+        - Architecture technique
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Contraintes et critères d'acceptation
+      description: Inclure mobile, accessibilité, règles métier ou contraintes atelier pertinentes.
