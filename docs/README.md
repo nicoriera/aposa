@@ -20,14 +20,15 @@ Cette documentation constitue la source de vérité du projet. Le code, les tick
 
 ### Implémenter la plateforme
 
-1. [Principes d'implémentation](IMPLEMENTATION.md)
-2. [Architecture backend](BACKEND.md)
-3. [Contrats API](API.md)
-4. [Données](DATA.md)
-5. [Tests](TESTING.md)
-6. [Sécurité](SECURITY.md)
-7. [Exploitation](OPERATIONS.md)
-8. [Roadmap](ROADMAP.md)
+1. [Check-list avant implémentation](PRE-IMPLEMENTATION.md)
+2. [Principes d'implémentation](IMPLEMENTATION.md)
+3. [Architecture backend](BACKEND.md)
+4. [Contrats API](API.md)
+5. [Données](DATA.md)
+6. [Tests](TESTING.md)
+7. [Sécurité](SECURITY.md)
+8. [Exploitation](OPERATIONS.md)
+9. [Roadmap](ROADMAP.md)
 
 ### Travailler avec les agents
 
