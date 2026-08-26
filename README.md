@@ -4,11 +4,12 @@ Site e-commerce d'APOSA, atelier lorientais d'éditions graphiques premium vendu
 
 ## Statut
 
-Le projet est en phase de cadrage produit et technique. La stack applicative n'est pas encore arrêtée.
+Le projet est en phase de cadrage produit et technique. La stack applicative n'est pas encore arrêtée. Avant tout code applicatif, compléter la [check-list avant implémentation](docs/PRE-IMPLEMENTATION.md).
 
 ## Documentation
 
 - [Index de la documentation](docs/README.md)
+- [Check-list avant implémentation](docs/PRE-IMPLEMENTATION.md)
 - [Vision produit](docs/PRODUCT.md)
 - [Domaine et règles métier](docs/DOMAIN.md)
 - [Architecture fonctionnelle](docs/ARCHITECTURE.md)

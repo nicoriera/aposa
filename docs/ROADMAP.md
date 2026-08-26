@@ -2,6 +2,8 @@
 
 La roadmap ordonne les décisions et validations ; elle ne fixe pas encore de dates.
 
+Avant d'ouvrir la Phase 2, suivre la [check-list avant implémentation](PRE-IMPLEMENTATION.md) (Phases 0 et 1).
+
 ## Phase 0 — Cadrage du Drop 01
 
 - Choisir le produit Stanley/Stella après prototypes.
